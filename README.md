@@ -1,6 +1,8 @@
-# my_personal_card
+# My Personal Card
 
 Simple Mobile app that implemented in a part of the Complete 2021 Flutter Development Bootcamp with Dart (https://www.udemy.com/course/flutter-bootcamp-with-dart/)
+
+![Screenshot](https://raw.githubusercontent.com/Dmytro-Pashko/My-Personal-Card-on-Flutter/main/git_description/section_6.png)
 
 ## Getting Started
 
