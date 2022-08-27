@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class MyCardWidget extends StatelessWidget {
   const MyCardWidget({Key? key}) : super(key: key);
-
 
   @override
   Widget build(BuildContext context) {
@@ -76,6 +76,26 @@ class MyCardWidget extends StatelessWidget {
                           color: Colors.teal.shade900),
                     )),
               ),
+              Padding(
+                padding: const EdgeInsets.only(top: 32),
+                child: Container(
+                  height: 80,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      TextButton(
+                          onPressed: () {},
+                          child: SvgPicture.asset("images/linkedin_icon.svg")),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      TextButton(
+                          onPressed: () {},
+                          child: SvgPicture.asset("images/github_icon.svg")),
+                    ],
+                  ),
+                ),
+              )
             ],
           ),
         ),
